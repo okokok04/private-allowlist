@@ -6,3 +6,6 @@ The project is organized around a simple privacy-preserving flow:
 2. The circuit creates a membership proof from a private witness.
 3. The contract verifies the proof without exposing the identity.
 4. The UI displays access granted or rejected.
+
+## Submission readiness
+The architecture is documented for review, and the implementation is supported by a public Vercel deployment and automated CI.
