@@ -98,6 +98,33 @@ h1 {
   margin-top: 1rem;
 }
 
+.wallet-hint {
+  margin-top: 1rem;
+  padding: 0.95rem 1rem;
+  border-radius: 14px;
+  background: rgba(30, 41, 59, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  color: #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.retry-button {
+  border: none;
+  background: #38bdf8;
+  color: white;
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.retry-button:hover {
+  background: #0ea5e9;
+}
+
 .status-card {
   padding: 1rem;
   background: rgba(30, 41, 59, 0.95);
